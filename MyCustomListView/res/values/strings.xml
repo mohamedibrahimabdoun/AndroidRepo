@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomListViewDemo!</string>
+    <string name="app_name">CustomListViewDemo</string>
+    <string name="package_str">com.codemobiles.android.demo.customlistview</string>
+</resources>

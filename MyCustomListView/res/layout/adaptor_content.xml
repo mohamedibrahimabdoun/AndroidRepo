@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/lineItem"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:gravity="center_vertical">
+	<TableRow
+	     android:id="@+id/tableRow1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="25dp"
+	    android:layout_toRightOf="@+id/textLine" >
+
+		<TextView
+		    android:id="@+id/textLine"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dip"
+		    android:textColor="#ff000000"
+		    android:textSize="24sp" />
+
+		<Button
+		    android:id="@+id/buttonLine"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="Delete" />
+
+		<EditText
+		    android:id="@+id/editLine"
+		    android:layout_width="48dip"
+		    android:layout_height="48dip" 
+		    android:ems="10"
+		    android:gravity="center" />
+
+		<CheckBox
+		    android:id="@+id/checkBox1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Pick Ur Choice" />
+
+	<ImageView android:id="@+id/iconLine" android:layout_width="48dip"
+		android:layout_height="48dip" android:layout_alignParentLeft="true" />
+
+	
+	</TableRow>
+
+</RelativeLayout>
