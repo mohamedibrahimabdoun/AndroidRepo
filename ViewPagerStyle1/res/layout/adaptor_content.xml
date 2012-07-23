@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineItem0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    >
+
+    
+     <TextView
+            android:id="@+id/textLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="15sp" />
+    
+     
+     
+          <TextView
+    android:id="@+id/textLine2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView2"
+    android:textSize="15sp" />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+         
+            <Button
+            android:id="@+id/buttonLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Delete" />
+
+        <EditText
+            android:id="@+id/editLine"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:ems="10"
+            android:gravity="center" 
+            android:inputType="number">
+
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Ur Choice" />
+   
+          
+          </LinearLayout>
+     
+   <!-- 
+    
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Delete" />
+
+        <EditText
+            android:id="@+id/editLine"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:ems="10"
+            android:gravity="center" >
+
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Ur Choice" />
+   
+   
+    </TableRow>
+    
+     <TextView
+            android:id="@+id/textLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="15sp" />
+            
+            <TextView
+    android:id="@+id/textLine2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView2"
+    android:textSize="15sp" />
+            
+    
+    --> 
+    
+</LinearLayout>
